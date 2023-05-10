@@ -1,0 +1,174 @@
+.navbar {
+    background-color: rgb(11, 155, 11);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    /* align-items: center; */
+}
+.navbar_son {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.contacts {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo img {
+    width: 200px;
+}
+.navbar .callMe {
+    border-radius: 20px;
+    border: none;
+    width: 227px;
+    font-size: 16px;
+    color: green;
+    background-color: white;
+    padding: 10px 20px;
+}
+.navbar .callMe:hover {
+    background-color: rgb(237, 236, 236);
+}
+.navbar_son a {
+    color: white;
+    text-decoration: none;
+}
+.navbar_son .phoneNumber {
+    font-size: 17px;
+}
+.navbar_son .number {
+    margin-right: 10px;
+}
+.navbar_son .social {
+    width: 94px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_son .social a {
+    font-size: 25px;
+}
+.navbar_son a:hover {
+    color: orange;
+}
+.navbarMenu {
+    width: 100%;
+    z-index: 1;
+    background-color: green!important;
+    padding: 19px 0;
+    margin: 0 auto;
+    position: fixed;
+    top: 62px;
+    left: 0;
+    right: 0;
+}
+.navbarMenuSon, .offerSon {
+    width: 80%;
+    margin: 0 auto;
+}
+.navbarMenu a {
+    text-decoration: none;
+    color: rgb(195, 193, 193);
+    margin-right: 20px;
+    font-size: 13px;
+}
+.navbarMenu a:hover {
+    color: white;
+}
+.offer {
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 19px 0;
+    margin: 0 auto;
+    position: fixed;
+    top: 118px;
+    left: 0;
+    right: 0;
+}
+.offerSon a {
+    text-decoration: none;
+    color: green;
+    margin-right: 20px;
+    font-size: 13px;
+}
+.offerSon a:hover {
+    color: orange;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(11, 155, 11);
+}
+.footerSon {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0 40px;
+}
+.footerMenu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.footerMenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.footerI {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+.footerImage {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.footerImage .img1 {
+    width: 168px;
+}
+.footerImage .img2 {
+    width: 252px;
+}
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footerSoc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.fSocial {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fSocial a {
+    font-size: 25px;
+}
+.lStyle {
+    width: 463px;
+}
+.lStyle p {
+    font-size: 17px;
+    color: white;
+}
+.lStyle p a {
+    color: #337ab7;
+}
+.footer a:hover {
+    color: orange;
+}
