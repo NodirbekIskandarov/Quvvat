@@ -4,4 +4,183 @@
   padding: 0;
   margin: 0;
 }
-     
+.statistika {
+  width: 92%;
+  margin-top: 80px;
+}
+.statistikaImage1 {
+  width: 100%;
+  border-radius: 20px;
+}
+.statistikaImage1 img {
+  width: 100%;
+  border-radius: 20px;
+
+}
+.statistika .first_h1 {
+  font-size: 26px;
+  margin: 40px 0;
+  width: 75%;
+}
+.statistika .first_p {
+  color: gray;
+  margin-bottom: 100px;
+}
+.statistika .second_h1 {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.statistikaImage2 {
+  width: 100%;
+}
+.statistikaImage2 img {
+  width: 100%;
+}
+.statistika .third_h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.statistika .second_p {
+  width: 90%;
+  color: gray;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.statistika .third_p {
+  width: 100%;
+  color: gray;
+}
+.mijozlar {
+  width: 92%;
+  /* margin-top: 80px; */
+  margin: 0 auto;
+}
+.mijozlar .row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mijozlar .col {
+  width: 16.6666%;
+  padding: 5px;
+}
+.mijozlar .card {
+  width: 100%;
+  height: 130px;
+  padding: 20px;
+  border: 1px solid rgba(180, 177, 177, 0.55);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mijozlar img {
+  width: 70px;
+}
+.mijozlar_h1 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+.ilova {
+  width: 92%;
+  height: 580px;
+  margin: 60px auto;
+  background-color: #209c3c;
+  padding: 50px 40px;
+  border-radius: 20px;
+  position: relative;
+}
+.ilova .first {
+  width: 1060px;
+  color: white;
+}
+.ilovaUse {
+  width: 520px;
+  height: 316px;
+  padding: 40px;
+  border-radius: 30px;
+  background-color: white;
+  float: right;
+  margin-top: 100px;
+}
+.ilovaUse .second {
+  margin: 0 0 20px;
+}
+.ilovaUse p {
+  font-size: 16px;
+  color: #727272;
+}
+.ilovaUse button {
+  background-color: #209c3c;
+  border-radius: 40px;
+  padding: 24px 32px;
+  border: 1px solid #209c3c;
+  margin-top: 34px;
+}
+.ilovaUse button:hover {
+  background-color: white;
+}
+.ilovaUse button:hover a {
+  color: #209c3c;
+}
+.ilovaUse a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.ilovaInPhone {
+  position: absolute;
+  left: 40px;
+  top: 210px;
+}
+.hamkorlik {
+  width: 92%;
+}
+.hamkorlikSon .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hamkorlikSon .col {
+  width: 49%;
+  /* height: 350px; */
+  background-color: #a8a6a67c;
+  border-radius: 20px;
+
+  margin-bottom: 20px;
+}
+.hamkorlikSon img {
+  width: 100%;
+  height: 260px;
+  border-radius: 20px;
+}
+.hamkorlikSon a {
+  text-decoration: none;
+  color: black;
+}
+.hamkorlikSon .text {
+  width: 85%;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  padding-bottom: 30px;
+}
+.hamkorlikSon button {
+  float: right;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #209c3c;
+  border: 1px solid #209c3c;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 14px 30px 20px 16px;
+}
+.hamkorlikSon button a {
+  color: white;
+  font-size: 25px;
+}

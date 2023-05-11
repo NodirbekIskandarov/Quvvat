@@ -1,6 +1,9 @@
+// import 'bootstrap/dist/css/bootstrap.css'
 import Layout from '@/components/Layout'
 import '@/styles/globals.css'
 import '../styles/test.css'
+
+
 
 export default function App({ Component, pageProps }) {
   return (
