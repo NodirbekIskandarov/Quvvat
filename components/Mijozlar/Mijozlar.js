@@ -49,10 +49,13 @@ function Mijozlar({mijozlarCollection}) {
         <>
             {
                 mijozlarCollection && mijozlarCollection.map(item => {
-                    console.log({mijozlarCollection})
+                    // console.log({mijozlarCollection})
                     return (
+                            <div>
                         <h1>{item.image_src}</h1>
-                    )
+
+                            </div>
+                        )
                 })
             }
         </>
