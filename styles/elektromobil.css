@@ -1,0 +1,130 @@
+.asosiy {
+    /* width: 80%; */
+    margin: 0 auto;
+    padding-top: 180px;
+}
+.asosiy .image {
+    width: 80%;
+    margin: 0 auto;
+}
+.image img {
+    width: 100%;
+    border-radius: 30px;
+}
+.asosiy .yuklash {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.yuklash h2 {
+    font-size: 60px;
+    margin: 60px 0 25px 0;
+}
+.yuklash p {
+    width: 547px;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+.yuklash .mobileApp {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.mobileApp button {
+    width: 324px;
+    height: 60px;
+    padding: 22px 20px;
+    background-color: #209C3C;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 70px;
+    padding-bottom: 50px;
+}
+.card {
+    width: 30%;
+    position: relative;
+    margin-bottom: 20px;
+}
+.card p {
+    width: 100%;
+}
+.toRight {
+    position: absolute;
+    right: 0;
+    top: 45%;
+    font-size: 60px;
+    color: #727272;
+    transform: translate(50%, -50%);
+}
+.faq {
+    width: 100%;
+    /* background-color: #727272; */
+    background-color: #72727222;
+    padding-bottom: 30px;
+}
+.faq h2 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+}
+.answer {
+    transition: all 0.3s;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    
+}
+.answer.active {
+    height: 80px;
+    opacity: 1;
+    /* color: red; */
+}
+.faq .render {
+    width: 80%;
+    margin: 0 auto;
+}
+.renderSon {
+    width: 100%;
+    /* height: 78px; */
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 40px;
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.question button {
+    border: none;
+    background: transparent;
+}
+.question button span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: #209C3C;
+    border: none;
+    font-size: 30px;
+    padding-top: 3px;
+    cursor: pointer;
+}
+
+.question button span:hover {
+    background-color: green;
+}

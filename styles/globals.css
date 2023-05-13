@@ -4,9 +4,13 @@
   padding: 0;
   margin: 0;
 }
+body {
+  position: relative;
+}
 .statistika {
-  width: 92%;
-  margin-top: 80px;
+  width: 80%;
+  padding-top: 175px;
+  margin: 0 auto;
 }
 .statistikaImage1 {
   width: 100%;
@@ -53,7 +57,7 @@
   color: gray;
 }
 .mijozlar {
-  width: 92%;
+  width: 80%;
   /* margin-top: 80px; */
   margin: 0 auto;
 }
@@ -85,7 +89,7 @@
   font-size: 50px;
 }
 .ilova {
-  width: 92%;
+  width: 80%;
   height: 580px;
   margin: 60px auto;
   background-color: #209c3c;
@@ -137,7 +141,8 @@
   top: 210px;
 }
 .hamkorlik {
-  width: 92%;
+  width: 80%;
+  margin: 0 auto;
 }
 .hamkorlikSon .row {
   display: flex;
@@ -147,7 +152,7 @@
 .hamkorlikSon .col {
   width: 49%;
   /* height: 350px; */
-  background-color: #a8a6a67c;
+  background-color: #e5e5e57c;
   border-radius: 20px;
 
   margin-bottom: 20px;
@@ -183,4 +188,172 @@
 .hamkorlikSon button a {
   color: white;
   font-size: 25px;
+}
+.hamkorlikSon .col:hover .textSon {
+  text-decoration: underline;
+  color: cadetblue;
+}
+.hamkorlikSon .col:hover button {
+  background-color: white;
+}
+.hamkorlikSon .col:hover button a {
+  color: green;
+}
+.hamkorlikSon h2 {
+  margin: 100px 0;
+  font-size: 47px;
+}
+.xizmatlar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.xizmatlar .xizmat {
+  width: 366px;
+  height: 235px;
+  border: 1px solid #727272;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 25px;
+}
+.xizmat img {
+  width: 80px;
+  height: 80px;
+}
+.taklif {
+  width: 80%;
+  margin: 0 auto;
+}
+.xizmat p {
+  color: #727272;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.xizmat:hover {
+  background-color: #209c3c;
+}
+.xizmat:hover p {
+  color: white;
+}
+.xizmat:hover img {
+  filter: invert(0%) sepia(0%) saturate(7477%) hue-rotate(132deg) brightness(220%) contrast(98%);
+}
+.taklifSon h2 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 39px;
+}
+.taklifSon p {
+  margin-bottom: 50px;
+  font-size: 16px;
+  color: #727272;
+}
+.malumot {
+  width: 80%;
+  padding-top: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.malumotlar {
+  width: 551px;
+  height: 564px;
+  padding: 60px 40px;
+  background-color: #209c3c;
+  color: white;
+  border-radius: 30px;
+}
+.malumotlar h2 {
+  font-size: 27px;
+  margin-bottom: 20px;
+}
+.malumotlar p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.malumot .picture {
+  width: 551px;
+  height: 564px;
+  padding: 50px 60px;
+  background: #F4F4F4;
+  border-radius: 30px;
+}
+.starting {
+  width: 80%;
+  margin: 0 auto;
+}
+.renderPart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.renderPart .col {
+  width: 360px;
+  height: 214px;
+  border: 1px solid #727272;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 30px;
+}
+.renderPart .card h2 {
+  color: #209c3c;
+  font-size: 35px;
+}
+.renderPart .firstP {
+  color: #209c3c;
+  font-size: 40px;
+}
+.renderPart .col2 {
+  width: 360px;
+  height: 214px;
+  border-radius: 20px;
+  padding: 32px;
+  margin-bottom: 30px;
+  background-color: #209c3c;
+}
+.renderPart .col2 h2 {
+  color: white;
+  font-size: 35px;
+}
+.renderPart .col2 p:nth-child(2) {
+  color: white;
+  font-size: 40px;
+}
+.renderPart .col2 p:nth-child(3) {
+  color: white;
+}
+
+.renderPart span {
+  color: white;
+}
+.startingSon .first_h2 {
+  font-size: 46px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.starting button {
+  width: 324px;
+  height: 60px;
+  padding: 22px 20px;
+  background-color: #209c3c;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #209c3c;
+  border-radius: 27px;
+  margin-top: 30px;
+}
+.starting button:hover {
+  background-color: green;
+}
+.maps {
+  width: 100%;
+  height: 450px;
+  margin-top: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.maps iframe {
+  width: 100%;
 }

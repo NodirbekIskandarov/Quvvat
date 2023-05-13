@@ -24,18 +24,11 @@ function Navbar() {
             <div className='navbarMenu'>
                 <div className='navbarMenuSon'>
                     <a href=''>INVESTORLAR UCHUN</a>
-                    <a href=''>ELEKTROMOBILCHILAR UCHUN</a>
+                    <a href='/elektromobilchilar-uchun'>ELEKTROMOBILCHILAR UCHUN</a>
                     <a href=''>KORPORATIV MIJOZLARGA</a>
                     <a href=''>AVTODILLERLARGA</a>
                     <a href=''>OAV</a>
                     <a href=''>LOYIHALAR</a>
-                </div>
-            </div>
-            <div className='offer'>
-                <div className='offerSon'>
-                    <a href=''>BIZ NIMA TAKLIF ETAMIZ</a>
-                    <a href=''>QUVVAT BERISH STANSIYALARI</a>
-                    <a href=''>DASTURIY MAJMUANING AFZALLIKLARI</a>
                 </div>
             </div>
         </div>
