@@ -11,6 +11,7 @@ import Start from '@/components/start/Start'
 import GoogleMap from '@/components/googleMap/GoogleMap'
 import Offer from '@/components/offer/Offer'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

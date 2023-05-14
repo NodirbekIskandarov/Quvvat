@@ -58,7 +58,7 @@ function ElektromobillarUchun () {
                     <a href=''>SHAXSIY KABINET</a>
                 </div>
             </div>
-            <div className="asosiy">
+            <div className="asosiyel">
                 <div className="image">
                     <img src="https://tokbor.uz/themes/tokbor-oz/driver/img/intro-image/intro-image-1.jpg"/>
                 </div>

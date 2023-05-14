@@ -1,0 +1,98 @@
+.asosiya {
+    width: 100%;
+    /* margin: 0 auto; */
+    margin-top: 180px;
+}
+.asosiya .taklif {
+    width: 80%;
+    margin: 0 auto;
+}
+.asosiya .taklif img {
+    width: 100%;
+    border-radius: 20px;
+}
+.asosiya .taklif .first_h2 {
+    font-size: 60px;
+} 
+.asosiya .taklif .first_h2 {
+    margin: 100px 0 50px 0;
+    font-size: 60px;
+}
+.asosiya .taklif .row {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.206);
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.asosiya .taklif .card1 {
+    width: 462px;
+}
+.asosiya .taklif .card1 span {
+    width: 264px;
+    height: 50px;
+    font-size: 20px;
+    padding: 15px 25px;
+    background-color: #ffd705;
+    color: black;
+    border-radius: 15px;
+}
+.asosiya .taklif .card1 h4 {
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+    width: 417px;
+}
+.asosiya .taklif .card2 p {
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #727272;
+}
+.asosiya .taklif .card2 {
+    width: 647px;
+}
+.asosiya .taklif .card2 h4 {
+    font-size: 18px;
+}
+.asosiya .taklif button {
+    width: 260px;
+    height: 60px;
+    background-color: #209c3c;
+    padding: 22px 20px;
+    margin: 50px 0;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+.asosiya .taklif button:hover {
+    background-color: green;
+}
+.asosiya .line {
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.361);
+    margin-bottom: 20px;
+}
+.asosiya .avtasalon {
+    width: 80%;
+    margin: 0 auto;
+}
+.asosiya .avtasalon h2 {
+    font-size: 40px;
+    margin: 50px 0;
+}
+.asosiya .avtasalon .row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.asosiya .avtasalon .col {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.asosiya .avtasalon img {
+    border-radius: 20px;
+}

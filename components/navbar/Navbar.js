@@ -6,7 +6,7 @@ function Navbar() {
             <div className="navbar">
                 <div className="navbar_son">
                     <div className="logo">
-                        <a href=''>
+                        <a href='/'>
                             <img src="https://tokbor.uz/uploads/logo.png" alt="logo" />
                         </a>
                     </div>
@@ -23,12 +23,12 @@ function Navbar() {
             </div>
             <div className='navbarMenu'>
                 <div className='navbarMenuSon'>
-                    <a href=''>INVESTORLAR UCHUN</a>
+                    <a href='/'>INVESTORLAR UCHUN</a>
                     <a href='/elektromobilchilar-uchun'>ELEKTROMOBILCHILAR UCHUN</a>
-                    <a href=''>KORPORATIV MIJOZLARGA</a>
-                    <a href=''>AVTODILLERLARGA</a>
-                    <a href=''>OAV</a>
-                    <a href=''>LOYIHALAR</a>
+                    <a href='/korporativ-mijozlarga'>KORPORATIV MIJOZLARGA</a>
+                    <a href='/avtodileram'>AVTODILLERLARGA</a>
+                    <a href='/smi'>OAV</a>
+                    <a href='/loyihalar'>LOYIHALAR</a>
                 </div>
             </div>
         </div>

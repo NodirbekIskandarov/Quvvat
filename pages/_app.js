@@ -3,8 +3,12 @@ import Layout from '@/components/Layout'
 import '@/styles/globals.css'
 import '../styles/test.css'
 import '../styles/elektromobil.css'
-
-
+import '../styles/korporativ.css'
+import '../styles/avtodiller.css'
+import '../styles/maqolalar.css'
+import '../styles/video.css'
+import '../styles/quvvatBerish.css'
+import '../styles/dMajmua.css'
 
 export default function App({ Component, pageProps }) {
   return (

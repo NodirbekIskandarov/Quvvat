@@ -7,12 +7,12 @@ function Footer() {
         <div className="footer">
             <div className="footerSon">
                 <div className="footerMenu">
-                    <a href=''>INVESTORLAR UCHUN</a>
-                    <a href=''>ELEKTROMOBILCHILAR UCHUN</a>
-                    <a href=''>KORPORATIV MIJOZLARGA</a>
-                    <a href=''>AVTODILLERLARGA</a>
-                    <a href=''>OAV</a>
-                    <a href=''>LOYIHALAR</a>
+                    <a href='/'>INVESTORLAR UCHUN</a>
+                    <a href='/elektromobilchilar-uchun'>ELEKTROMOBILCHILAR UCHUN</a>
+                    <a href='/korporativ-mijozlarga'>KORPORATIV MIJOZLARGA</a>
+                    <a href='/avtodileram'>AVTODILLERLARGA</a>
+                    <a href='/smi'>OAV</a>
+                    <a href='/loyihalar'>LOYIHALAR</a>
                 </div>
                 <div className="footerI">
                     <div className="footerImage">

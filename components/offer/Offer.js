@@ -3,9 +3,9 @@ function Offer () {
         <div>
             <div className='offer'>
                 <div className='offerSon'>
-                    <a href=''>BIZ NIMA TAKLIF ETAMIZ</a>
-                    <a href=''>QUVVAT BERISH STANSIYALARI</a>
-                    <a href=''>DASTURIY MAJMUANING AFZALLIKLARI</a>
+                    <a href='/'>BIZ NIMA TAKLIF ETAMIZ</a>
+                    <a href='/quvvat-berish-stansiyalari'>QUVVAT BERISH STANSIYALARI</a>
+                    <a href='/dasturiy-majmuaning-afzalliklari'>DASTURIY MAJMUANING AFZALLIKLARI</a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,61 @@
+.asosiyk {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 190px;
+}
+.asosiyk .first_img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.asosiyk .first_h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.asosiyk .first_p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.asosiyk .second_p {
+    margin-bottom: 30px;
+    color: #727272;
+    font-size: 18px;
+}
+.asosiyk .second_h2 {
+    font-size: 40px;
+    margin: 60px 0;
+}
+.asosiyk .dastur {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.asosiyk .card {
+    width: 346px;
+    text-align: center;
+}
+.card  p {
+    width: 320px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.asosiyk .chegirma {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.asosiyk button {
+    width: 260px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    background-color: #209C3C;
+    color: white;
+}
+.asosiyk .chegirma button:hover {
+    background-color: green;
+}
