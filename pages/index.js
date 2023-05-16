@@ -10,11 +10,20 @@ import Malumot from '@/components/malumot/Malumot'
 import Start from '@/components/start/Start'
 import GoogleMap from '@/components/googleMap/GoogleMap'
 import Offer from '@/components/offer/Offer'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import { useTranslation } from 'next-i18next'
 
+export async function getStaticProps({locale}) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['home']))
+    }
+  }
+}
+export default function Home(props) {
 
-const inter = Inter({ subsets: ['latin'] })
+  const { t } = useTranslation()
 
-export default function Home() {
   return (
     <>
       <Head>
@@ -26,6 +35,7 @@ export default function Home() {
       <main>
         <Offer/>
         <Statistika/>
+        <h1>{t('home:welcome_msg')}</h1>  {/* test uchun yaratilgan */}
         <Mijozlar/>
         <Ilova/>
         <Hamkorlik/>

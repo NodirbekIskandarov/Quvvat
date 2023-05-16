@@ -34,8 +34,7 @@ function Footer() {
                         <a href="https://youtube.com"><TfiYoutube/></a>
                     </div>
                     <div className='lStyle'>
-                        <p>© 2020 - 2023 Tokbor.Uz | Barcha huquqlar himoyalangan.
-Sayt yaratish <a href=''>Life Style</a></p>
+                        <p>© 2020 - 2023 Tokbor.Uz | Barcha huquqlar himoyalangan. Sayt yaratish <a href=''>Life Style</a></p>
                     </div>
                 </div>
             </div>

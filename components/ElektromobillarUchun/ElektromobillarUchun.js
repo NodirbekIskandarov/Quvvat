@@ -50,11 +50,11 @@ function ElektromobillarUchun () {
         <div className="elektromobil">
             <div className='offer'>
                 <div className='offerSon'>
-                    <a href='#faq'>FOYDALANUVCHI YO‘RIQNOMASI</a>
+                    <a href=''>FOYDALANUVCHI YO‘RIQNOMASI</a>
                     <a href=''>FAQ</a>
-                    <a href=''>AC/DC (220В - 380В)</a>
-                    <a href=''>KONNEKTORLARNING TURLARI</a>
-                    <a href=''>ELECTROMOBIL SOVUQDA</a>
+                    <a href='/elektromobilchilar-uchun/acdc'>AC/DC (220В - 380В)</a>
+                    <a href='/elektromobilchilar-uchun/konnektorlarning-turlari'>KONNEKTORLARNING TURLARI</a>
+                    <a href='/elektromobilchilar-uchun/moroz'>ELECTROMOBIL SOVUQDA</a>
                     <a href=''>SHAXSIY KABINET</a>
                 </div>
             </div>

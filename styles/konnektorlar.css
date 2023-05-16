@@ -1,0 +1,47 @@
+.konnekt {
+    width: 80%;
+    padding-top: 180px;
+    margin: 0 auto;
+}
+.konnekt .textPart {
+    margin-bottom: 50px;
+}
+.konnekt .textPart img {
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+.konnekt .textPart h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.konnekt .textPart p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: gray;
+}
+.konnekt .textPartSon h3 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.konnekt .textPartSon .row {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.konnekt .textPartSon .row .col1 p {
+    margin: 5px;
+    padding: 0;
+}
+.konnekt .textPartSon .row .col2 {
+    padding-top: 20px;
+}
+.konnekt .textPart a {
+    text-decoration: none;
+    color: #209c3c;
+    margin-left: 10px;
+    font-size: 18px;
+} 

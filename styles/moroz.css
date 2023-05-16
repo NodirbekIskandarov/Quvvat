@@ -1,0 +1,39 @@
+.moroz {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+.moroz .morozSon {
+    margin-bottom: 30px;
+}
+.moroz .morozSon img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.moroz .morozSon h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.moroz .morozSon p {
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.moroz .morozSon h3 {
+    font-size: 20px;
+    color: rgb(66, 63, 63);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.moroz .morozSon h4 {
+    font-size: 18px;
+    color: rgb(66, 63, 63);
+    margin-bottom: 20px;
+}
+.moroz .morozSon a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #209c3c;
+    margin-left: 10px;
+}

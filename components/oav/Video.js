@@ -35,7 +35,7 @@ function Video() {
                     </div>
                 </div>
                 <img className="odam" src="https://tokbor.uz/uploads/files/image-4.jpg"/>
-                <h2>Maqolalar</h2>
+                <h2>Video</h2>
                     
                 <div className="render">
                     {

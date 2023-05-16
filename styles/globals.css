@@ -5,6 +5,7 @@
   margin: 0;
 }
 body {
+  width: 100%;
   position: relative;
 }
 .statistika {
@@ -356,4 +357,23 @@ body {
 
 .maps iframe {
   width: 100%;
+}
+
+
+
+/* responsives */
+.contactResponse {
+  display: none;
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+}
+@media only screen and (max-width: 415px) {
+  .navbar .contacts {
+    display: none;
+    flex-direction: column;
+  }
+  .navbar .contactResponse {
+    display: block;
+  }
 }
