@@ -4,7 +4,7 @@ function Ilova() {
             <div className="ilovaSon">
                 <h2 className="first">Quvvat berish stansiyalarini o‘rnatishda biz sizning lokatsiyangizni barcha kira olishi va siz haqingizda bilishi mumkin bo‘lgan TOKBOR ilovamizda qayd qilamiz.</h2>
                 <div className="ilovaInPhone">
-                    <img src="https://tokbor.uz/themes/tokbor-oz/driver/img/bg/2.png" alt="appInPhone"/>
+                    <img src="https://tokbor.uz/themes/tokbor-oz/driver/img/bg/2.png" alt="appInPhone" />
                 </div>
                 <div className="ilovaUse">
                     <div className="ilovaUseSon">

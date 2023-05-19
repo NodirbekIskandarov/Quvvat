@@ -20,9 +20,9 @@ export async function getStaticProps({locale}) {
     }
   }
 }
-export default function Home(props) {
+export default function Home() {
 
-  const { t } = useTranslation()
+  // const { t } = useTranslation()
 
   return (
     <>
@@ -32,10 +32,10 @@ export default function Home(props) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
+      <main className='main'>
         <Offer/>
         <Statistika/>
-        <h1>{t('home:welcome_msg')}</h1>  {/* test uchun yaratilgan */}
+        {/* <h1>{t('home:welcome_msg')}</h1>  test uchun yaratilgan */}
         <Mijozlar/>
         <Ilova/>
         <Hamkorlik/>

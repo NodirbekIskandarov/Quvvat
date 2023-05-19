@@ -14,6 +14,11 @@
     width: 80%;
     margin: 0 auto;
 }
+.navbar_son .logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
 .contacts {
     width: 50%;
     display: flex;
@@ -21,7 +26,7 @@
     align-items: center;
 }
 .navbar .logo img {
-    width: 40%;
+    width: 100%;
 }
 .navbar .callMe {
     border-radius: 20px;
@@ -111,20 +116,16 @@
 }
 .footer {
     width: 100%;
+    height: 300px;
     background-color: #209c3c;
-    /* position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0; */
+    
 }
 .footerSon {
     width: 80%;
     margin: 0 auto;
     padding: 40px 0 40px 0;
 }
-.footerSon .fs {
-    width: 100%;
-}
+
 .footerMenu {
     width: 100%;
     display: flex;
@@ -155,9 +156,6 @@
 .footerImage .img1, .img2 {
     width: 100%;
 }
-/* .footerImage .img2 {
-    width: 100%;
-} */
 .footer a {
     text-decoration: none;
     color: white;
@@ -191,3 +189,4 @@
 .footer a:hover {
     color: orange;
 }
+

@@ -63,7 +63,7 @@ function ElektromobillarUchun () {
                     <img src="https://tokbor.uz/themes/tokbor-oz/driver/img/intro-image/intro-image-1.jpg"/>
                 </div>
                 <div className="yuklash">
-                    <h2>Foydalanuxchi yo'riqnomasi</h2>
+                    <h2 className='h2'>Foydalanuxchi yo'riqnomasi</h2>
                     <p>Bizning tizimimizda ro‘yxatdan o‘ting va TOK BOR elektr quvvat berish stansiyalariga to‘liq kirish huquqiga ega bo‘ling</p>
                     <div className="mobileApp">
                         <button>AppStore da yuklab oling</button>

@@ -52,7 +52,6 @@
 
 .asosiy_quvvat_berish .row2 .col12 .first {
     font-size: 29px;
-    /* margin-bottom: 20px; */
 }
 
 .asosiy_quvvat_berish .row2 .col12 .first b {
@@ -217,9 +216,7 @@
     width: 251px;
     height: 34px;
     padding: 4px 10px;
-    /* background-color: #209c3c; */
     color: #209c3c;
-    /* border-radius: 10px; */
 }
 
 .asosiy_quvvat_berish .triple .col12 p {

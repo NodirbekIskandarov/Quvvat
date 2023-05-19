@@ -1,11 +1,15 @@
+import { useTranslation } from 'next-i18next'
+
 function Statistika () {
+  const { t } = useTranslation('common')
+
     return (
         <div className="statistika">
             <div className="statistikaImage1">
                 <img src="https://tokbor.uz/oz/uploads/sections/1003/original.jpg" alt=""/>
             </div>
             <h1 className="first_h1">
-            «TOK BOR» kompaniyasi 2020 yildan boshlab O‘zbekistonda elektrmobillarga quvvat berish stansiyalarini yetkazib berish, ularni joylashtirish va qo‘llab-quvvatlash bilan shug‘ullanib kelmoqda.
+                {t('home:company_has_been_supplying')}
             </h1>
 
             <p className="first_p">

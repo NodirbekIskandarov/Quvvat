@@ -35,7 +35,7 @@ function Avtodillerlar () {
                         <h4>Chegirma sotish amalga oshirilgan kundan boshlab 1 yil mobaynida yoki elektrokarning egasi almashguniga qadar amal qiladi.</h4>
                     </div>
                 </div>
-                <button>Ariza qoldiring</button>
+                <button className="button">Ariza qoldiring</button>
             </div>
             <div className="line"></div>
             <div className="avtasalon">

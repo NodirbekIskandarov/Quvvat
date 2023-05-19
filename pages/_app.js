@@ -13,7 +13,7 @@ import '../styles/acdc.css'
 import '../styles/konnektorlar.css'
 import '../styles/moroz.css'
 import { appWithTranslation } from 'next-i18next';
-
+// import { i18n } from '../next-i18next.config';
 
 function App({ Component, pageProps }) {
   return (

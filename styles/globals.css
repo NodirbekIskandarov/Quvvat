@@ -4,14 +4,15 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   width: 100%;
   position: relative;
 }
 .statistika {
   width: 80%;
-  padding-top: 175px;
   margin: 0 auto;
+  padding-top: 175px;
 }
 .statistikaImage1 {
   width: 100%;
@@ -33,7 +34,7 @@ body {
 }
 .statistika .second_h1 {
   text-align: center;
-  width: 400px;
+  width: 30%;
   margin: 0 auto;
   padding-bottom: 50px;
 }
@@ -59,7 +60,6 @@ body {
 }
 .mijozlar {
   width: 80%;
-  /* margin-top: 80px; */
   margin: 0 auto;
 }
 .mijozlar .row {
@@ -82,7 +82,7 @@ body {
   align-items: center;
 }
 .mijozlar img {
-  width: 70px;
+  width: 80%;
 }
 .mijozlar_h1 {
   margin-top: 60px;
@@ -99,11 +99,11 @@ body {
   position: relative;
 }
 .ilova .first {
-  width: 1060px;
+  width: 90%;
   color: white;
 }
 .ilovaUse {
-  width: 520px;
+  width: 45%;
   height: 316px;
   padding: 40px;
   border-radius: 30px;
@@ -152,7 +152,6 @@ body {
 }
 .hamkorlikSon .col {
   width: 49%;
-  /* height: 350px; */
   background-color: #e5e5e57c;
   border-radius: 20px;
 
@@ -176,14 +175,11 @@ body {
 }
 .hamkorlikSon button {
   float: right;
-  width: 56px;
+  width: 12%;
   height: 56px;
   border-radius: 50%;
   background-color: #209c3c;
   border: 1px solid #209c3c;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   padding: 14px 30px 20px 16px;
 }
 .hamkorlikSon button a {
@@ -211,8 +207,7 @@ body {
   justify-content: space-between;
 }
 .xizmatlar .xizmat {
-  width: 366px;
-  height: 235px;
+  width: 30%;
   border: 1px solid #727272;
   border-radius: 20px;
   padding: 32px;
@@ -258,8 +253,7 @@ body {
   justify-content: space-between;
 }
 .malumotlar {
-  width: 551px;
-  height: 564px;
+  width: 50%;
   padding: 60px 40px;
   background-color: #209c3c;
   color: white;
@@ -274,8 +268,7 @@ body {
   margin-bottom: 20px;
 }
 .malumot .picture {
-  width: 551px;
-  height: 564px;
+  width: 48%;
   padding: 50px 60px;
   background: #F4F4F4;
   border-radius: 30px;
@@ -290,8 +283,7 @@ body {
   justify-content: space-between;
 }
 .renderPart .col {
-  width: 360px;
-  height: 214px;
+  width: 32%;
   border: 1px solid #727272;
   border-radius: 20px;
   padding: 32px;
@@ -306,7 +298,7 @@ body {
   font-size: 40px;
 }
 .renderPart .col2 {
-  width: 360px;
+  width: 32%;
   height: 214px;
   border-radius: 20px;
   padding: 32px;
@@ -334,7 +326,7 @@ body {
   margin-bottom: 50px;
 }
 .starting button {
-  width: 324px;
+  width: 30%;
   height: 60px;
   padding: 22px 20px;
   background-color: #209c3c;
@@ -361,19 +353,324 @@ body {
 
 
 
-/* responsives */
-.contactResponse {
+.menu_in_respons, .menu-toggle, .contactResponse {
   display: none;
-  color: white;
-  font-size: 30px;
-  padding-top: 10px;
 }
+
 @media only screen and (max-width: 415px) {
+  .navbar .contactResponse.activ .menu_in_respons {
+    display: block;
+  }
+  .menu-toggle {
+    display: block;
+    width: 5%;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    border: none;
+    background-color: #209c3c;
+    color: white;
+    font-size: 20px;
+  }
+  .xButton {
+    width: 100%;
+    position: relative;
+  }
+  .xButton button {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    background-color: #209c3c;
+    border: none;
+  }
+  .navbar_son{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navbar .contactResponse.activ {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+background-blend-mode: multiply;
+    background-image: url("https://tokbor.uz/themes/tokbor-oz/driver/img/intro-image/intro-image-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .menu_in_responsSon {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .menu_in_responsSon a {
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px 0;
+  }
+  .menu_in_responsSon button {
+    width: 50%;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: white;
+    color: #209c3c;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+  .menu_in_responsSon .social {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu_in_responsSon .social a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
   .navbar .contacts {
     display: none;
-    flex-direction: column;
   }
   .navbar .contactResponse {
     display: block;
+  }
+  .navbarMenu {
+    display: none;
+  }
+  .offer {
+    display: none;
+  }
+  
+  .statistikaImage1 {
+    width: 100%;
+    margin-top: -100px;
+  }
+  .statistika .first_h1 {
+    width: 95%;
+  }
+  .statistika .second_h1 {
+    width: 100%;
+  }
+  .statistika .third_h1 {
+    width: 80%;
+  }
+  .mijozlar .row .col {
+    width: 50%;
+  }
+  .ilova {
+    width: 90%;
+    height: 1100px;
+  }
+  .ilova .ilovaSon {
+    width: 100%;
+    position: relative;
+  }
+  .ilova .ilovaSon .first {
+    width: 100%;
+    text-align: center;
+  }
+  .ilova .ilovaInPhone {
+    width: 100%;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+  }
+  .ilova .ilovaInPhone img {
+    width: 100%;
+  }
+  .ilova .ilovaUse {
+    float: none;
+    width: 100%;
+    height: 400px;
+    margin-top: 400px;
+    text-align: center;
+  }
+  .ilova .ilovaUseSon button {
+    width: 100%;
+  } 
+  .hamkorlikSon h2 {
+    width: 100%;
+  }
+  .hamkorlikSon .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hamkorlikSon .row .col {
+    width: 100%;
+  }
+  .taklif .xizmat {
+    width: 100%;
+  }
+  .malumot {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .malumot .malumotlar  {
+    width: 100%;
+  }
+  .malumot .picture {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .malumot .picture img {
+    width: 100%;
+  }
+  .starting .renderPart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .starting .renderPart .col, .col2 {
+    width: 100%;
+  }
+  .starting .renderPart .col .secondP {
+    width: 100%;
+  }
+  .starting .renderPart .col2  {
+    width: 100%;
+  }
+  .starting button {
+    width: 100%;
+  }
+  .footer .footerMenu {
+    display: none;
+  }
+  .elektromobil {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .asosiyel {
+    width: 100%;
+  }
+  .asosiyel .image {
+    width: 100%;
+  }
+  .asosiyel .image img {
+    width: 100%;
+  }
+  .asosiyel .yuklash  {
+    width: 100%;
+    text-align: center;
+  }
+  .asosiyel .yuklash .h2 {
+
+    width: 100%;
+    font-size: 20px;
+    width: 100%;
+  }
+  .asosiyel .yuklash p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .asosiyel .yuklash .mobileApp {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .asosiyel .yuklash .mobileApp button {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .asosiyel .yuklash .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+  }
+  .asosiyel .yuklash .row .card {
+    width: 100%;
+  }
+  .asosiyel .yuklash .row .card img {
+    width: 100%;
+  }
+  .asosiyel .yuklash .row .card .toRight {
+    display: none;
+  }
+  
+  .asosiya .taklif img {
+    width: 100%;
+  }
+  .asosiya .taklif h2:nth-child(2) {
+    font-size: 27px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .asosiya .taklif .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .asosiya .taklif .row .card1, .card2 {
+    width: 100%;
+  }
+  .asosiya .taklif .row .card1 h4 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .asosiya .taklif  .button {
+    width: 100%;
+  }
+  .asosiya .avtasalon h2:nth-child(1) {
+    font-size: 21px;
+    width: 100%;
+  }
+  .asosiya .avtasalon .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  .asosiya .avtasalon .row .col {
+    width: 50%;
+  }
+  .asosiya .avtasalon .row .col img {
+    width: 100%;
+  }
+  .asosiymaq :nth-child(3) {
+    font-size: 20px;
+  }
+  .asosiymaq .render {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  .asosiymaq .render .item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+
+  }
+  .asosiymaq .render .item .rasm, .haqida {
+    width: 100%;
+  }
+  .asosiymaq .render .item .rasm img {
+    width: 100%;
   }
 }
