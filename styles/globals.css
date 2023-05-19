@@ -673,4 +673,41 @@ background-blend-mode: multiply;
   .asosiymaq .render .item .rasm img {
     width: 100%;
   }
+  .acdc .textPart img {
+    width: 100%;
+    margin-top: -100px;
+  }
+  .acdc .textPart h2 {
+    font-size: 25px!important;
+  }
+  .acdc .textPart .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .acdc .textPart .row .col1, .col2 {
+    width: 100%!important;
+  } 
+  .konnekt .textPart img {
+    width: 100%;
+    margin-top: -100px;
+  }
+  .konnekt .textPart h2 {
+    font-size: 20px!important;
+  }
+  .konnekt .textPart p {
+    width: 100%;
+  }
+  .konnekt .textPart .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .konnekt .textPart .col1, .col2 {
+    width: 100%;
+  }
+  .moroz .morozSon h2 {
+    font-size: 20px!important;
+  }
+  .moroz .morozSon img {
+    margin-top: -100px;
+  }
 }
