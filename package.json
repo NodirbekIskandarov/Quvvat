@@ -17,6 +17,14 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-i18next": "^12.2.2",
-    "react-icons": "^4.8.0"
-  }
+    "react-icons": "^4.8.0",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "primeflex": "3.3.0",
+    "primeicons": "^6.0.1",
+    "primereact": "9.2.3"
+  },
+  "devDependencies": {
+    "sass": "^1.58.3"
+}
 }
