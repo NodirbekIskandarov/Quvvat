@@ -1,25 +1,25 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import { Inter } from 'next/font/google'
-// import Statistika from '@/components/statistika/Statistika'
-// import Mijozlar from '@/components/Mijozlar/Mijozlar'
-// import Ilova from '@/components/ilova/Ilova'
-// import Hamkorlik from '@/components/hamkorlik/Hamkorlik'
-// import Taklif from '@/components/taklif/Taklif'
-// import Malumot from '@/components/malumot/Malumot'
-// import Start from '@/components/start/Start'
-// import GoogleMap from '@/components/googleMap/GoogleMap'
-// import Offer from '@/components/offer/Offer'
-// import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
+import Head from 'next/head'
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+import Statistika from '@/components/statistika/Statistika'
+import Mijozlar from '@/components/Mijozlar/Mijozlar'
+import Ilova from '@/components/ilova/Ilova'
+import Hamkorlik from '@/components/hamkorlik/Hamkorlik'
+import Taklif from '@/components/taklif/Taklif'
+import Malumot from '@/components/malumot/Malumot'
+import Start from '@/components/start/Start'
+import GoogleMap from '@/components/googleMap/GoogleMap'
+import Offer from '@/components/offer/Offer'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 
-// export async function getStaticProps({locale}) {
-//   return {
-//     props: {
-//       ...(await serverSideTranslations(locale, ['home']))
-//     }
-//   }
-// }
+export async function getStaticProps({locale}) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['home']))
+    }
+  }
+}
 export default function Home() {
 
 
