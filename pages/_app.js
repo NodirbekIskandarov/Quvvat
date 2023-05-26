@@ -11,6 +11,7 @@ import 'primeicons/primeicons.css';
 
 import '../styles/layout/layout.scss';
 import '../styles/demo/Demos.scss';
+// import '../styles/styles.scss';
 
 import '../styles/test.css'
 import '../styles/elektromobil.css'
@@ -24,7 +25,7 @@ import '../styles/acdc.css'
 import '../styles/konnektorlar.css'
 import '../styles/moroz.css'
 import { appWithTranslation } from 'next-i18next';
-// import Layouta from '../layout/layout';
+import Layout1 from '@/components/Layout';
 // import { i18n } from '../next-i18next.config';
 
 function App({ Component, pageProps }) {

@@ -14,17 +14,18 @@
     "i18next": "^22.4.15",
     "next": "13.4.1",
     "next-i18next": "^13.2.2",
+    "primeflex": "3.3.0",
+    "primeicons": "^6.0.1",
+    "primereact": "9.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-i18next": "^12.2.2",
     "react-icons": "^4.8.0",
     "redux": "^4.2.1",
-    "redux-persist": "^6.0.0",
-    "primeflex": "3.3.0",
-    "primeicons": "^6.0.1",
-    "primereact": "9.2.3"
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
-    "sass": "^1.58.3"
-}
+    "@types/sass": "^1.45.0",
+    "sass": "^1.62.1"
+  }
 }
