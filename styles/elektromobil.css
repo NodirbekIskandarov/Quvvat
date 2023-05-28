@@ -123,4 +123,6 @@
 
 .asosiyel .question button span:hover {
     background-color: green;
+    transition: 0.4s;
+
 }

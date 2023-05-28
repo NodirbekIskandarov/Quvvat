@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import Statistika from '@/components/statistika/Statistika'
 import Mijozlar from '@/components/Mijozlar/Mijozlar'
 import Ilova from '@/components/ilova/Ilova'
@@ -10,16 +8,8 @@ import Malumot from '@/components/malumot/Malumot'
 import Start from '@/components/start/Start'
 import GoogleMap from '@/components/googleMap/GoogleMap'
 import Offer from '@/components/offer/Offer'
-import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 
-export async function getStaticProps({locale}) {
-  return {
-    props: {
-      ...(await serverSideTranslations(locale, ['home']))
-    }
-  }
-}
 export default function Home() {
 
 
@@ -32,21 +22,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='main'>
-        <Offer/>
-        <Statistika/>
-        {/* <h1>{t('home:welcome_msg')}</h1>  test uchun yaratilgan */}
-        <Mijozlar/>
+        {/* <Offer/>
+        <Statistika/> */}
+        <h1>Just simple content</h1> 
+        {/* <Mijozlar/>
         <Ilova/>
         <Hamkorlik/>
         <Taklif/>
         <Malumot/>
         <Start/>
-        <GoogleMap/>
+        <GoogleMap/> */}
       </main>
     </>
   )
-
-  // return (
-  //   <h1>welcome to my sakai</h1>
-  // )
-}
+  }

@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../Gotham\ Pro/gothampro_bold.ttf') format('truetype');
+  /* You can add additional font-weight and font-style declarations if needed */
+}
 
 * {
   box-sizing: border-box;
@@ -6,6 +11,7 @@
 }
 
 body {
+  font-family: 'Gotham Pro', Arial, sans-serif;
   width: 100%;
   position: relative;
 }
@@ -127,9 +133,13 @@ body {
 }
 .ilovaUse button:hover {
   background-color: white;
+  transition: 0.4s;
+
 }
 .ilovaUse button:hover a {
   color: #209c3c;
+  transition: 0.4s;
+
 }
 .ilovaUse a {
   color: white;
@@ -189,12 +199,18 @@ body {
 .hamkorlikSon .col:hover .textSon {
   text-decoration: underline;
   color: cadetblue;
+  transition: 0.4s;
+
 }
 .hamkorlikSon .col:hover button {
   background-color: white;
+  transition: 0.4s;
+
 }
 .hamkorlikSon .col:hover button a {
   color: green;
+  transition: 0.4s;
+
 }
 .hamkorlikSon h2 {
   margin: 100px 0;
@@ -228,12 +244,18 @@ body {
 }
 .xizmat:hover {
   background-color: #209c3c;
+  transition: 0.4s;
+
 }
 .xizmat:hover p {
   color: white;
+  transition: 0.4s;
+
 }
 .xizmat:hover img {
   filter: invert(0%) sepia(0%) saturate(7477%) hue-rotate(132deg) brightness(220%) contrast(98%);
+  transition: 0.4s;
+
 }
 .taklifSon h2 {
   margin-top: 100px;
@@ -338,6 +360,8 @@ body {
 }
 .starting button:hover {
   background-color: green;
+  transition: 0.4s;
+
 }
 .maps {
   width: 100%;
@@ -414,7 +438,7 @@ background-blend-mode: multiply;
   }
   .menu_in_responsSon a {
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     margin: 10px 0;
   }
@@ -425,7 +449,7 @@ background-blend-mode: multiply;
     border: 1px solid black;
     background-color: white;
     color: #209c3c;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 auto;
   }
   .menu_in_responsSon .social {

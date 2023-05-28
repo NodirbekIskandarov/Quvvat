@@ -3,9 +3,9 @@ import Footer from "./footer/Footer"
 function Layout1({children}) {
     return (
         <div>
-            <Navbar/>
+            {/* <Navbar/> */}
             {children}
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     )
 }

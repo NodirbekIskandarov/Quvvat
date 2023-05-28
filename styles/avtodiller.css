@@ -52,7 +52,7 @@
     width: 647px;
 }
 .asosiya .taklif .card2 h4 {
-    font-size: 18px;
+    font-size: 16px;
 }
 .asosiya .taklif button {
     width: 260px;
@@ -60,13 +60,15 @@
     background-color: #209c3c;
     padding: 22px 20px;
     margin: 50px 0;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     border: none;
     border-radius: 30px;
 }
 .asosiya .taklif button:hover {
     background-color: green;
+    transition: 0.4s;
+
 }
 .asosiya .line {
     width: 100%;

@@ -112,16 +112,22 @@
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    transition: 0.4s;
+
   }
 
   .card:hover span {
     transform: translateX(4px);
+    transition: 0.4s;
+
   }
 }
 
 @media (prefers-reduced-motion) {
   .card:hover span {
     transform: none;
+    transition: 0.4s;
+
   }
 }
 

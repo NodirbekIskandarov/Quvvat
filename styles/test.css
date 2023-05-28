@@ -39,6 +39,7 @@
 }
 .navbar .callMe:hover {
     background-color: rgb(237, 236, 236);
+    transition: 0.4s;
 }
 .navbar_son a {
     color: white;
@@ -60,6 +61,8 @@
 }
 .navbar_son a:hover {
     color: orange;
+    transition: 0.4s;
+
 }
 .navbarMenu {
     width: 100%;
@@ -88,11 +91,11 @@
 .navbarMenu a {
     text-decoration: none;
     color: rgb(195, 193, 193);
-    /* margin-right: 20px; */
     font-size: 13px;
 }
 .navbarMenu a:hover {
     color: white;
+    transition: 0.4s;
 }
 .offer {
     width: 100%;
@@ -111,9 +114,13 @@
     margin-right: 20px;
     font-size: 13px;
 }
+
 .offerSon a:hover {
     color: orange;
+    transition: 0.4s;
+
 }
+
 .footer {
     width: 100%;
     height: 300px;
@@ -188,5 +195,8 @@
 }
 .footer a:hover {
     color: orange;
+    transition: 0.4s;
+
 }
+
 

@@ -15,14 +15,14 @@
     margin-bottom: 30px;
 }
 .konnekt .textPart p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 25px;
     color: gray;
 }
 .konnekt .textPartSon h3 {
     width: 90%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 25px;
     text-align: center;
 }
@@ -43,5 +43,5 @@
     text-decoration: none;
     color: #209c3c;
     margin-left: 10px;
-    font-size: 18px;
+    font-size: 16px;
 } 

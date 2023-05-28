@@ -1,16 +1,16 @@
 // import 'bootstrap/dist/css/bootstrap.css'
-// import Layout from '@/components/Layout'
+import Layout from '@/components/Layout'
 import '@/styles/globals.css'
 
-import { LayoutProvider } from '../layout/context/layoutcontext';
-import Layout from '../layout/layout';
+// import { LayoutProvider } from '../layout/context/layoutcontext';
+// import Layout from '../layout/layout';
 
-import 'primereact/resources/primereact.css';
-import 'primeflex/primeflex.css';
-import 'primeicons/primeicons.css';
+// import 'primereact/resources/primereact.css';
+// import 'primeflex/primeflex.css';
+// import 'primeicons/primeicons.css';
 
-import '../styles/layout/layout.scss';
-import '../styles/demo/Demos.scss';
+// import '../styles/layout/layout.scss';
+// import '../styles/demo/Demos.scss';
 // import '../styles/styles.scss';
 
 import '../styles/test.css'
@@ -24,21 +24,15 @@ import '../styles/dMajmua.css'
 import '../styles/acdc.css'
 import '../styles/konnektorlar.css'
 import '../styles/moroz.css'
-import { appWithTranslation } from 'next-i18next';
-import Layout1 from '@/components/Layout';
-// import { i18n } from '../next-i18next.config';
-
+// import Layout1 from '@/components/Layout';
+import { i18n } from '../next-i18next.config';
+// import i18next from 'https://deno.land/x/i18next/index.js'
 function App({ Component, pageProps }) {
-  if (Component.getLayout) {
-    return <LayoutProvider>{Component.getLayout(<Component {...pageProps} />)}</LayoutProvider>;
-} else {
     return (
-        <LayoutProvider>
-            <Layout>
-                <Component {...pageProps} />
-            </Layout>
-        </LayoutProvider>
+        <Layout>
+            <Component {...pageProps} />
+        </Layout>
     );
 }
-}
-export default appWithTranslation(App)
+// }
+export default App
