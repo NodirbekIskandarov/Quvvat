@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-
 function LanguageButtons() {
   const { t, i18n } = useTranslation();
 
@@ -8,7 +7,7 @@ function LanguageButtons() {
   };
 
   return (
-    <div>
+    <div className='languagebutton'>
       <button onClick={() => changeLanguage('en')}>{t('english')}</button>
       <button onClick={() => changeLanguage('uz')}>{t('uzbek')}</button>
       <button onClick={() => changeLanguage('ru')}>{t('russian')}</button>
