@@ -1,12 +1,12 @@
 import Navbar from "./navbar/Navbar"
 import Footer from "./footer/Footer"
-function Layout1({children}) {
+function Layout({children}) {
     return (
         <div>
-            {/* <Navbar/> */}
+            <Navbar/>
             {children}
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     )
 }
-export default Layout1
+export default Layout

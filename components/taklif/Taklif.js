@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next'
+
 const takliflar = [
     {
         img: "https://tokbor.uz/uploads/articles/1233/article-original.png",
@@ -39,11 +41,16 @@ const takliflar = [
 
 
 function Taklif () {
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
     return (
         <div className="taklif">
             <div className="taklifSon">
-                <h2>Biz hamkorlikning har qanday ko‘rinishida nima taklif etamiz:</h2>
-                <p>Faqat bizda! TOK BOR elektr zaryadlash stansiyalarini o‘rnatishda biz quyidagilarni taʼminlaymiz:</p>
+                <h2>{t('h23')}</h2>
+                <p>{t('h24')}</p>
                 <div className="xizmatlar">
                     {
                         takliflar && takliflar.map((item, index) => {

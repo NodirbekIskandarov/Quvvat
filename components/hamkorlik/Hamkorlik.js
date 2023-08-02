@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { BsChevronRight } from 'react-icons/bs'
 const variant = [
     {
@@ -24,10 +25,15 @@ const variant = [
 
 
 function Hamkorlik() {
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
     return (
         <div className="hamkorlik">
             <div className="hamkorlikSon">
-                <h2>Aynan Siz uchun mos bo‘lgan hamkorlik variantini tanlang:</h2>
+                <h2>{t('h22')}</h2>
                 <div className="row">
                     {
                         variant && variant.map((item, index) => {

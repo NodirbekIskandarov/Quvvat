@@ -8,11 +8,15 @@ import Malumot from '@/components/malumot/Malumot'
 import Start from '@/components/start/Start'
 import GoogleMap from '@/components/googleMap/GoogleMap'
 import Offer from '@/components/offer/Offer'
-
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 export default function Home() {
-
-
+  const { t, i18n } = useTranslation();
+ 
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <>
       <Head>
@@ -22,16 +26,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='main'>
-        {/* <Offer/>
-        <Statistika/> */}
-        <h1>Just simple content</h1> 
-        {/* <Mijozlar/>
+        <Offer/>
+        <Statistika/>
+        <Mijozlar/>
         <Ilova/>
         <Hamkorlik/>
         <Taklif/>
         <Malumot/>
         <Start/>
-        <GoogleMap/> */}
+        <GoogleMap/>
       </main>
     </>
   )

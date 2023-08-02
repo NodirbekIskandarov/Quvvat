@@ -105,13 +105,20 @@ const mijozlar = [
         "image_src": "https://tokbor.uz/oz/uploads/gallery/big-f37b40.png"
     }
 ]
+import { useTranslation } from 'react-i18next'
+
 
 
 function Mijozlar() {
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
     return (
         <div>
             <div className="mijozlar">
-                <h1 className="mijozlar_h1">Quvvat berish stansiyalariga ega bo‘lishga ulgurgan bizning mijozlarimiz</h1>
+                <h1 className="mijozlar_h1">{t('h17')}</h1>
                 <div className="row">
                     {
                         mijozlar && mijozlar.map((item, index) => {

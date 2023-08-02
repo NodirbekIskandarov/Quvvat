@@ -1,11 +1,18 @@
+import { useTranslation } from 'react-i18next'
+
 function Offer () {
+    const { t, i18n } = useTranslation();
+
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+    };
     return (
         <div>
             <div className='offer'>
                 <div className='offerSon'>
-                    <a href='/'>BIZ NIMA TAKLIF ETAMIZ</a>
-                    <a href='/quvvat-berish-stansiyalari'>QUVVAT BERISH STANSIYALARI</a>
-                    <a href='/dasturiy-majmuaning-afzalliklari'>DASTURIY MAJMUANING AFZALLIKLARI</a>
+                    <a href='/'>{t('h8')}</a>
+                    <a href='/quvvat-berish-stansiyalari'>{t('h9')}</a>
+                    <a href='/dasturiy-majmuaning-afzalliklari'>{t('h10')}</a>
                 </div>
             </div>
         </div>
