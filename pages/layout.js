@@ -1,5 +1,4 @@
-import Loyihalar from "@/components/loyihalar/Loyihalar"
-import Layout from "@/src/components/layout"
+import Layout from "../components/Layout"
 
 function layout () {
     return (
